@@ -1,0 +1,15 @@
+<div class="container text-center">
+    <h1>
+        List of blogs
+    </h1>
+    <div *ngIf='blogs.length==0'>
+        <div id='list'>You need to create blog!</div>
+    </div>
+    <div *ngIf='blogs.length>0'>
+    <div *ngFor='let blog of blogs' id='list'>
+        <div>{{blog.title}}</div>
+        <div>{{blog.description}}</div>
+        <div>{{blog.categary}}</div>
+    </div>
+</div>
+</div>

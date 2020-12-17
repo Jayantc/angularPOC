@@ -1,0 +1,9 @@
+#list{
+    padding: 20px;
+    border: 2px solid burlywood;
+    width: 80%;
+    margin: 30px auto;
+    background-color: green;
+    color: indigo;
+    border: 2px indigo;
+}
